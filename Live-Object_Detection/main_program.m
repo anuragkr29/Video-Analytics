@@ -27,10 +27,11 @@ else
     writeVideo(aviObject,F); % Add the frame to the file
     stop(vid);
     delete(vid);
+    h = msgbox('Video Saved');
 end
 end
 
-h = msgbox('Video Saved');
+
 
 prompt = 'Press "G" to grab an video image and proceed : ';
 str = input(prompt , 's');
