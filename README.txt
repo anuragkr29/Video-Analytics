@@ -4,9 +4,6 @@ This matlab program performs the following functions :
 3. Adds salt and pepper noise to a random videoframe.
 4. Removes the noise using median filterning
 
-Note : I have included my own program for converting images
-from RGB to HSV color space but due to performance issues
-I have used the matlab function for the same. 
 
 -----------------------Object Detection---------------------
 To detect an object , an RGB image is converted to HSV image.
@@ -32,8 +29,7 @@ To use the code , run the main_program.m in matlab and follow
 the instructions.
 
 The average time calculation is printed in the matlab console
-which is approximeately 0.06 seconds calculated for each 5 frames
-and mean of the values.
+calculated for each 5 frames and mean of the values.
 
 The noise density can vary between 0 and 1 and the user can give
 a manual input for the noise density to be added to the image.
