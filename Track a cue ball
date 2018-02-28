@@ -1,3 +1,0 @@
-This Project track a cue ball in a given pool video
-The implementation uses the Lucas-Kanade Algorithm that is implemented in the OpenCV libraby
-The language used is Python 3.
